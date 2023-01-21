@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/5272841042.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Clothing Brand</title>
+    <script src="https://kit.fontawesome.com/5272841042.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Index.css">
+
+    
+  </head>
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+<section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="Clothes_Logo.jpg" class="img-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 justify-content-center me-auto mb-2 mb-lg-0">
+              <li class="nav-item ps-5">
+                <a class="nav-link active" aria-current="page" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Brands</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <i class="fa fa-user fa-1x p-2"></i>
+            <i class="fa fa-cart-shopping fa-1x p-2"></i>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image1.jpeg" class="d-block w-100 img-fluid" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="image2.jpeg" class="d-block w-100 img-fluid" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="image3.jpeg" class="d-block w-100 img-fluid" alt="Image 3">
+          </div>
+          <div class="carousel-item">
+            <img src="image4.jpeg" class="d-block w-100 img-fluid" alt="Image 4">
+          </div>
+          <div class="carousel-item">
+            <img src="image5.jpeg" class="d-block w-100 img-fluid" alt="Image 5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+<hr>
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">Brands You Love </h3>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_1.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_2.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_3.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_4.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_5.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+    <div class="col-md-2 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Brand_6.jpeg"
+          class="rounded-3 shadow-1-strong" width="80" height="80" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+<section>
+  <div class="container">
+    <h2>Shopping for </h2>
+    <a href="#" class="btn btn-info p-3 m-3" role="button">Men</a>
+    <button type="button" class="btn btn-info p-3 m-3">Women</button>
+    <input type="button" class="btn btn-info p-3 m-3" value="Kids">
+    <input type="submit" class="btn btn-info p-3 m-3" value="Accessories">
+  </div>
+  <br>
+  <div class="container">
+    <h2>Occasion </h2>
+    <a href="#" class="btn btn-info p-3 m-3" role="button">Casual</a>
+    <button type="button" class="btn btn-info p-3 m-3">Work Wear</button>
+    <input type="button" class="btn btn-info p-3 m-3" value="Festive">
+    <input type="submit" class="btn btn-info p-3 m-3" value="Party">
+  </div>
+</section>
+
+<hr>
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">Shopping for</h3>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-12 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <input type="submit" class="btn btn-info p-3 m-3" value="Men">            
+        <input type="submit" class="btn btn-info p-3 m-3" value="Women">
+        <input type="submit" class="btn btn-info p-3 m-3" value="Kids">
+        <input type="submit" class="btn btn-info p-3 m-3" value="Accessories">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<hr>
+<section>
+<br>
+  <!-- Carousel wrapper -->
+<div
+id="carouselMultiItemExample"
+class="carousel slide carousel-dark text-center"
+data-bs-ride="carousel"
+>
+<!-- Controls -->
+<div class="d-flex justify-content-center mb-4">
+  <button
+    class="carousel-control-prev position-relative"
+    type="button"
+    data-bs-target="#carouselMultiItemExample"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next position-relative"
+    type="button"
+    data-bs-target="#carouselMultiItemExample"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Inner -->
+<div class="carousel-inner py-4">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="Rangmanch_1.webp"
+              class="card-img-top"
+              alt="Rangmanch 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">RANGMANCH</h5>
+              <p class="card-text">
+                Red Sari <br> Rs. 1985 <del>Rs. 2999</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="Rangmanch_2.webp"
+              class="card-img-top"
+              alt="Rangmanch 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">RANGMANCH</h5>
+              <p class="card-text">
+                Indigo Sari <br> Rs. 1985 <del>Rs. 2999</del>.
+              </p>
+              <a href="#!" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="People_3.webp"
+              class="card-img-top"
+              alt="People 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PEOPLE</h5>
+              <p class="card-text">
+                Rose Dress <br> Rs. 799 <del>Rs. 1199</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="card">
+            <img
+              src="Byford_4.webp"
+              class="card-img-top"
+              alt="Byford 4"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BYFORD</h5>
+              <p class="card-text">
+                Blue Regular Shirt <br> Rs. 752 <del>Rs. 1049</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="Byford_5.webp"
+              class="card-img-top"
+              alt="Byford 5"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BYFORD</h5>
+              <p class="card-text">
+                Olive Regular Shirt <br> Rs. 735 <del>Rs. 1049</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="Byford_6.webp"
+              class="card-img-top"
+              alt="Byford 6"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BYFORD</h5>
+              <p class="card-text">
+                Off-White Polo  T-Shirt <br> Rs. 699 <del>Rs. 999</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div class="card">
+            <img
+              src="Honey_7.webp"
+              class="card-img-top"
+              alt="Honey 7"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HONEY</h5>
+              <p class="card-text">
+                Orange Bottoms <br> Rs. 998 <del>Rs. 1499</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="Honey_8.webp"
+              class="card-img-top"
+              alt="Honey 8"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HONEY</h5>
+              <p class="card-text">
+                Light-green Peplum Top <br> Rs. 754 <del>Rs. 1099</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="BareDenim_9.webp"
+              class="card-img-top"
+              alt="Bare Denim 9"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BARE DENIM</h5>
+              <p class="card-text">
+                Blue Denim Shirt <br> Rs. 1018 <del>Rs. 1499</del>
+              </p>
+              <a href="#!" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+</section>
+
+<hr>
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">TRENDING STYLES</h3>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Trending_1.jpeg"
+          class="rounded-circle shadow-1-strong" width="250" height="250" />
+      </div>
+        <h5 class="mb-3">Vacay Ready Denims</h5>
+      </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Trending_2.jpeg"
+          class="rounded-circle shadow-1-strong" width="250" height="250" />
+      </div>
+      <h5 class="mb-3">Zeal For Jackets</h5>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Trending_3.jpeg"
+          class="rounded-circle shadow-1-strong" width="250" height="250" />
+      </div>
+      <h5 class="mb-3">Party Rock & Roll</h5>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="Trending_4.jpeg"
+          class="rounded-circle shadow-1-strong" width="250" height="250" />
+      </div>
+      <h5 class="mb-3">Sankranti Hues</h5>
+    </div>
+  </div>
+</section>
+
+<hr>
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">TRENDING NEW ARRIVALS</h3>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="TNA_1.webp"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        Rust Kurta <br> <b>Rs. 399</b>
+      </p>
+      </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="TNA_2.webp"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        Purple Kurta <br> <b>Rs. 399</b>
+      </p>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="TNA_3.webp"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        Teal Kurta <br> <b>Rs. 399</b>
+      </p>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="TNA_4.webp"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        Mauve Jacket <br> <b>Rs. 1099</b>
+      </p>
+    </div>
+  </div>
+</section>
+
+<hr>
+<section>
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-10 col-xl-8 text-center">
+      <h3 class="mb-4">Inspirations from the gram !</h3>
+      <p>CLICK, TAG @CLOTHING BRAND SHARE WITH #PLAY WITH FASHION</p>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="PlayF_1.jpeg"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        @tinashree_b_go
+      </p>
+      </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="PlayF_2.jpeg"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        @mind_boggles
+      </p>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="PlayF_3.jpeg"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        @parnikabansal
+      </p>
+    </div>
+    <div class="col-md-3 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <img src="PlayF_4.jpeg"
+          class="rounded-3 shadow-1-strong" width="250" height="250" />
+      </div>
+      <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        @gogoi_mind
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        CLOTHING BRAND ONLINE STORE - BEST ONLINE SHOPPING SITES FOR FASHION CLOTHING
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">WOMEN</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Western Wear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Ethnic Wear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Footwear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">New Arrivals</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">MEN</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Top Wear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Bottom Wear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Footwear</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">New Arrivals</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">KIDS</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Boys</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Girls</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Baby/Infant</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">New Arrivals</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">ABOUT</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">About Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Greencard</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Store Locator</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Payment Options</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">Clothing Brand</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+</section>
+
+
+
+    
+  </body>
+</html>
